@@ -8,9 +8,6 @@ func main() {
 }
 
 func InsertIntSlice(sl []int, val, ix int) (ret []int) {
-	var before, after []int
-	before = append(before, sl[:ix]...)
-	after = append(after, sl[ix:]...)
-	ret = append(append(before, val), after...)
+	ret = append(sl[:ix], append([]int{val}, sl[ix:]...)...)
 	return
 }
