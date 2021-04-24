@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"the_way_to_go_learning/chapter_9/c_9_5/pack1"
+
+	"github.com/dilless/the_way_to_go_learning/chapter_9/c_9_5/pack1"
 )
 
 func main() {

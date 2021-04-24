@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"the_way_to_go_learning/chapter_4/c_4_4/trans"
+
+	"github.com/dilless/the_way_to_go_learning/chapter_4/c_4_4/trans"
 )
 
 var twoPi = 2 * trans.Pi
