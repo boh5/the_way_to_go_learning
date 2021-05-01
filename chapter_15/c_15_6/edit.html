@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>edit - {{.Title |html}}</title>
+</head>
+<body>
+<h1>{{.Title |html}}</h1>
+<form action="/save/{{.Title |html}}" method="POST">
+    <input type="text" name="body">
+    <input type="submit">
+</form>
+</body>
+</html>
